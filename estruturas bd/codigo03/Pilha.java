@@ -28,6 +28,14 @@ public class Pilha<T>{
         return dado;
     }
 
+    public T peek(){
+         if(topo == null){
+            System.out.println("Pilha vazia!");
+            return null;
+        }
+        return topo.getDado();
+    }
+
     public void imprimePilha(){
         if(topo == null){
             System.out.println("Pilha vazia!");
@@ -39,13 +47,6 @@ public class Pilha<T>{
                 aux = aux.getNextNo();
             }
         }      
-    }
-    public T peek(){
-        if(topo == null){
-            System.out.println("Pilha vazia!");
-            return null;
-        }
-        return topo.getDado();
     }
 
 

@@ -1,4 +1,4 @@
-public class Fila<T> {
+public class Fila<T>{
     private No<T> primeiroNo;
     private No<T> ultimoNo;
     private String nomeFila;
@@ -7,35 +7,33 @@ public class Fila<T> {
         this("");
     }
 
-    public Fila(String nomeFila) {
+    public Fila(String nomeFila){
+        this.nomeFila = nomeFila;
         this.primeiroNo = null;
         this.ultimoNo = null;
+    }
+
+    public void setNomeFila(String nomeFila){
         this.nomeFila = nomeFila;
     }
 
-    public No<T> getPrimeiroNo() {
-        return primeiroNo;
+    public String getNomeFila(){
+        return this.nomeFila;
     }
 
-    public void setPrimeiroNo(No<T> primeiroNo) {
+    public void setPrimeiroNo(No<T> primeiroNo){
         this.primeiroNo = primeiroNo;
     }
 
-    public No<T> getUltimoNo() {
-        return ultimoNo;
+    public No<T> getPrimeiroNo(){
+        return this.primeiroNo;
     }
 
-    public void setUltimoNo(No<T> ultimoNo) {
+    public void setUltimoNo(No<T> ultimoNo){
         this.ultimoNo = ultimoNo;
     }
 
-    public String getNomeFila() {
-        return nomeFila;
+    public No<T> getUltimoNo(){
+        return this.ultimoNo;
     }
-
-    public void setNomeFila(String nomeFila) {
-        this.nomeFila = nomeFila;
-    }
-    
-
 }

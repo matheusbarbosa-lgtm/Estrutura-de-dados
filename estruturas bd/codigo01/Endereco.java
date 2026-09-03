@@ -39,6 +39,6 @@ public class Endereco {
 
     @Override
     public String toString(){
-        return String.format("Endereco[Rua: %s, Numero: %d, Bairro: %s]",getNomeRua(), getNumero(), getBairro());
+        return String.format("Endereco[Rua: %s, Numero: %d, Bairo: %s]",getNomeRua(), getNumero(), getBairro());
     }
 }

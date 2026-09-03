@@ -12,7 +12,7 @@ public class No<T>{
 
     public No(T dado, No<T> nextno){
         this.dado = dado;
-        this.nextNo = this.nextNo;
+        this.nextNo = nextNo;
     }
 
     public void setDado(T dado){

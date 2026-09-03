@@ -5,7 +5,7 @@ public class Principal{
         //Alunos
         No<String> obj1 = new No<String>("Rafael");
         No<Pessoa> obj2 = new No<Pessoa>(new Pessoa("Gabriel",29));
-        No<Integer> obj3 = new No<Integer>(10);
+        No<Integer> obj3 = new No<Integer>(8);
         /*
         obj1.setNextNo(new No("Cecília"));
         obj1.getNextNo().setNextNo(new No("Joaquim"));
@@ -23,7 +23,7 @@ public class Principal{
         }
         */
         System.out.println(obj1.getDado());
-        System.out.println(obj2.getDado().toString());
+        System.out.println(obj2.getDado().getNome());
         System.out.println(obj3.getDado());
     }
 }

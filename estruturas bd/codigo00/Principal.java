@@ -42,7 +42,11 @@ public class Principal{
         System.out.println(obj1.toString());
         */
         
-        obj4 = new Pessoa("Joaquim", 1, new Endereco("R", 8, "Centro"));
+        obj4.setNome("Joaquim");
+        obj4.setIdade(1);
+        obj4.getEnd().setRua("R");
+        obj4.getEnd().setNumero(8);
+        obj4.getEnd().setBairro("Centro");
 
         System.out.println(obj4.toString());
         

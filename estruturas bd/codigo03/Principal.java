@@ -11,6 +11,6 @@ public class Principal{
         System.out.println("Dado: " + pilha.pop() + " removido!");
 
         pilha.imprimePilha();
-        System.out.println("Dado no topo: " + pilha.peek());
+        System.out.println("Topo da Pilha: " + pilha.peek());
     }
 }
